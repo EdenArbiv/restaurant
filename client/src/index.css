@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.resapp{
+  display: flex;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 5% 2%;
+}
+
+img{
+  width: 100px;
+}
+
+.dish{
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 0.5%;
+  text-align: center;
+  height: 200px;
+}
+
+.orders{
+  width: 40vw;
+  height: auto;
+  padding: 5% 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 5% 2%;
+  
+}
+
+.minimg{
+  width: 60px;
+  border-radius: 50%;
+  
+}
